@@ -1,2 +1,2 @@
-model_checkpoint_path: "ronnet3.ckpt"
-all_model_checkpoint_paths: "ronnet3.ckpt"
+model_checkpoint_path: "ronnet6.ckpt"
+all_model_checkpoint_paths: "ronnet6.ckpt"
