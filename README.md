@@ -21,16 +21,12 @@ The goals / steps of this project are the following:
 [image1]: ./images/visualization.png "Visualization"
 [image2]: ./images/original.png "Original"
 [image3]: ./images/grayscale.png "Grayscaled"
-[image3]: ./images/processed.jpg "Processed"
-[image4]: ./new_images/stop-14.jpg "Traffic Sign 1"
-[image5]: ./new_images/roundabout-40.jpg "Traffic Sign 2"
-[image6]: ./new_images/road_work-25.jpg "Traffic Sign 3"
-[image7]: ./new_images/no_entry-17.jpg "Traffic Sign 4"
-[image8]: ./new_images/double_curve-21.jpg "Traffic Sign 5"
-[image9]: ./images/noentry_conv1.png "No Entry conv1"
-[image10]: ./images/noentry_conv2.png "No Entry conv2"
-[image11]: ./images/work_conv1.png "Work conv1"
-[image12]: ./images/work_conv2.png "Work conv2"
+[image4]: ./images/processed.jpg "Processed"
+[image5]: ./new_images/new_images.png "New Images"
+[image10]: ./images/noentry_conv1.png "No Entry conv1"
+[image11]: ./images/noentry_conv2.png "No Entry conv2"
+[image12]: ./images/work_conv1.png "Work conv1"
+[image13]: ./images/work_conv2.png "Work conv2"
 
 ## Rubric Points
 ##### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -124,8 +120,7 @@ My final model results were:
 
 ##### Chosen 5 images
 Here are five German traffic signs that I found on the web:
-![stop][image4] ![roundabout][image5] ![road_work][image6] 
-![no_entry][image7] ![double_curve][image8]
+![New Images][image5]
 
 Each image has some difficulties to be classified as follows:
 * stop sign: the angle of the sign
@@ -201,10 +196,10 @@ For the fifth image, the model is very sure that this is a double curve sign (pr
 ##### The first Convolution Layer
 **No Entry Sign**
 The results for the no entry sign from the 5 images:
-![NO Entry conv1][image9]
+![NO Entry conv1][image10]
 **Road Work Sign**
 The results for the road work sign from the 5 images:
-![Road Work conv1][image10]
+![Road Work conv1][image11]
 It seems that the first layer looks for outlines. It recognizes staright and curved lines in the image. One can clearly see the circle and middle line for the no entry sign, and the triangle lines of the road work sign.
 
 ##### The second Convolution Layer
